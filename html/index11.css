@@ -1,0 +1,27 @@
+.q{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #f7f7f7;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.myform {
+    display: block;
+    margin-top: ;
+    margin-bottom: ;
+    padding: 10px;
+}
+.myform label{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+.myform input{
+    padding: 10px;
+    width: 100%;
+
+}
+button{
+    padding-top: 10px;
+    padding: 10px;
+}
