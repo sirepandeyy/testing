@@ -58,17 +58,19 @@ header{
     
     box-sizing:border-box;
     color: #fff;
-    text-align: right;   
+    text-align: center;   
     border: 1px white solid;
-    padding: 20px;
+    padding: 30px 30px;
     margin: 20px 0;
     float: right;
-    width: 35%;
+    width: 70%;
     position: absolute;
-    font-style: italic;
-    transform:translate(800px,300px);
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    transform:translate(250px,450px);
 
 }
+
 .box:hover{
     background-color: white;
     transition: 0.1s ease;
@@ -113,4 +115,17 @@ a:hover{
     background: #fff;
     box-shadow: 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #fff;
     transition-delay: 0.1s;
+}
+
+.h{
+    background-image: url(batman.jpg) ;
+    background-opa;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-blend-mode:luminosity;
+    
+}
+.h{
+    opacity: 95%;
 }
