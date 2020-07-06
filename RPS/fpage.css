@@ -1,0 +1,54 @@
+body{
+    background: #232323;
+    margin: 0;
+}
+button{
+
+border: none;
+outline: none;
+background-color:  #E25840;
+box-shadow: 0 0 20px white;
+text-align: center;
+transform: translate(50%,200%);
+width: 50%;
+height: 90px;
+}
+a{
+    color: #232323;
+    font-size: 40px;
+    font-family: 'Montserrat',sans-serif;
+    text-decoration: none;
+    font-weight: 20px;
+}
+h1{
+    
+    position: relative;
+    color: #232323;
+    top: 20px;
+    margin: 0em;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+}
+#stripe{
+    
+    background: white ;
+    height: 150px;
+    text-align: center;
+    
+
+}
+.slide-in{
+    animation: slide-in 0.5s ease forwards;
+}
+@keyframes slide-in{
+
+    from{
+        transform: translate(100%);
+        visibility: visible;
+    }
+    to{
+        transform: translateX(0%);
+    }
+
+}

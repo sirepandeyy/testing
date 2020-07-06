@@ -1,0 +1,86 @@
+body{
+    background-color: #232323;
+    margin: 0cm;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    padding: 0%;
+    margin:0;
+   /* background-color: #4682B4;*/
+}
+.square{
+    width: 30%;
+    background: lightgreen;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+
+}
+#container{
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    
+}
+
+#stripe{
+    background: white;
+    height: 30px;
+    color: black;
+    text-align: center;
+   
+}
+.selector{
+    background:#4682B4;
+    border: none;
+}
+
+#Display{
+
+font-size: 50px;
+padding: 0;
+margin: 0;
+}
+h1:nth-child(3){
+    padding-bottom: 15px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 20px;
+
+}
+
+#easy:hover,#hard:hover,#new:hover{
+    
+    background-color: #4682B4;
+}
+#easy{
+    position: relative;
+    left: 120px;
+    padding-left: 17px;
+    padding-right: 17px;
+    color: black;
+
+    
+}
+#new{
+    position: relative;
+    right: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#hard{
+
+    position: relative;
+    left: 130px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
